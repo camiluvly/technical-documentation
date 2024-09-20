@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="tech-doc.css" />
+        <link rel="stylesheet" media="screen and (min-width: 800px)" href="tech-doc.css">
+    </head>
+    <body>
+        <nav id="navbar">
+            <header>HTML Documentation</header>
+            <ul>
+                <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+                <li><a class="nav-link" href="#What_You_Should_Know">What You Should Know</a></li>
+                <li><a class="nav-link" href="#HTML">HTML</a></li>
+                <li><a class="nav-link" href="#Hello_World">Hello World</a></li>
+                <li><a class="nav-link" href="#Common_HTML_Tags">Common HTML Tags</a></li>
+            </ul>
+        </nav>
+        <main id="main-doc">
+            <section id="Introduction" class="main-section">
+                <header id="Introduction">Introduction</header>
+                <br>
+                <h1>What is HTML?</h1>
+                    <p><strong>HTML</strong> stands for <em>Hyper Text Markup Language</em>. 
+                    It is the standard markup language for creating web pages, 
+                    and describes the structure of a web page. 'HyperText' refers to links
+                    that connect web pages to one another, either within a single website 
+                    or between websites.</p>
+                    <p>HTML uses 'markup' to annotate text, images, and other 
+                        content for display in a Web browser.</p>
+                    <p>Example Code: </p>
+                    <article>
+                    <code id="exmaple_code">
+                        <span>
+                            <span><</span>!DOCTYPE
+                            <span>html</span><span>></span>
+                        </span>
+                        <span>
+                            <span><</span>html<span>></span>
+                        </span>
+                        <span>
+                            <span><</span>head<span>></span>
+                        </span>
+                        <span>
+                            <span><</span>title<span>>Page Title</span><span><</span><span>/</span>title<span>></span>
+                        </span>
+                        <span>
+                            <span><</span>/<span></span>head<span>></span>
+                        </span>
+                        <span>
+                            <span><</span>body<span>></span>
+                        </span>
+                        <span>
+                            <span><</span>/<span></span><span>body</span><span>></span>
+                        </span>
+                        <span>
+                            <span><</span>/<span></span>html<span>></span>
+                        </span>
+                    </code>
+                </article>
+                <br>
+                <h2>What is an HTML Element?</h2>
+                <p>An HTML element is defined by a start tag, 
+                    some content, and an end tag. 
+                    The elements tell 
+                    the browser how the content should be displayed. </p>
+                <p><em>Anatomy of an HTML Element:</em></p>
+                <code>
+                <span class="code2">
+                    <span><</span>tagname<span>></span>Content<span><</span>/<span>tagname</span><span>></span>
+                </span>
+                </code>
+                <p>The HTML element is everything from the start tag to the end tag.</p>
+                <p>The name of an element within a tag is case-insensitive. 
+                    It can be written in uppercase, lowercase, or a mixture. 
+                </p>
+                <h3><em>The Main Parts of an HTML Element:</em></h3>
+                <ul>
+                    <li>Opening Tag: Consists of the name of the element</li>
+                    <li>Closing Tag: Same as the opening tag, but it includes
+                        a forward slash '(/)' before the element name</li>
+                    <li>Content: Content of the element; typically just text</li>
+                    <li>Element: Opening tag, Closing tag, and the content makeup an element</li>
+                </ul>
+            </section><br>
+            <section id="What_You_Should_Know" class="main-section">
+                <header id="What_You_Should_Know">What You Should Know</header>
+                <ul>
+                    <li>Basic knowledge of the Internet and the World Wide Web(WWW).</li><br>
+                    <li>Basic Knowledge of computers and How they work.</li>
+                </ul>
+            </section><br>
+            <section id="HTML" class="main-section">
+                <header id="HTML">HTML</header>
+                <h3>Anatmoy of an HTML document</h3>
+                    <code>
+                        <span>
+                            <span><</span>!DOCTYPE
+                            <span>html</span><span>></span>
+                        </span>
+                        <span>
+                            <span><</span>html<span>></span>
+                        </span>
+                        <span>
+                            <span><</span>head<span>></span>
+                        </span>
+                        <span>
+                            <span><</span>meta<span> charset</span><span>=<span>"utf-8"</span><span>></span>
+                        </span><br>
+                        <span>
+                            <span><</span>meta<span> name</span><span>=<span>"viewport"</span> 
+                            <span>content</span><span>=</span><span>"width=device-width"</span><span>></span>
+                        </span><br>
+                        <span>
+                            <span><</span>title<span>>TestPage</span><span><</span><span>/</span>title<span>></span>
+                        </span><br>
+                        <span>
+                            <span><</span>/<span></span>head<span>></span>
+                        </span><br>
+                        <span>
+                            <span><</span>body<span>></span>
+                        </span><br>
+                        <span>
+                            <span><</span>img<span> src</span><span>=</span><span>"images/cat-icon.jpg"</span>
+                            <span>alt</span><span>=</span><span>"Test Image"</span><span>/</span><span>></span>
+                        </span><br>
+                        <span>
+                            <span><</span>/<span></span><span>body</span><span>></span>
+                        </span><br>
+                        <span>
+                            <span><</span>/<span></span>html<span>></span>
+                        </span>
+                    </code>
+                    <p>Above Code Explanation: </p>
+                        <ul>
+                            <li><strong>!doctype html</strong>
+                            - tells the browser what to expect</li><br>
+                            <li><strong>html</strong> - wraps all the content on the entire page;
+                                sometimes known as the <em>root</em> element.
+                            </li><br>
+                            <li><strong>head</strong> - acts as a container for 
+                            everything the viewer doesn't need to see.</li><br> 
+                            <li><strong>meta charset="utf-8"</strong> - 
+                            sets the chracter the website should be used; 
+                            includes most characters from the vast majority of written 
+                            languages.</li><br>
+                            <li><strong>meta name="viewport" content="width=device-width"</strong>
+                            - ensures the page renders at the width of the viewport; preventing pages 
+                        from being too wide or shrinking down on mobile browsers.</li><br>
+                            <li><strong>title</strong> - sets the title of the web page.</li><br>
+                            <li><strong>body</strong> - contains all the content that users will 
+                            see on the web page. Including: text, images, videos, games, etc.</li>
+                        </ul>
+            </section><br>
+            <section id="Hello_World" class="main-section">
+                <header id="Hello_World">Hello World</header>
+                    <p>Writing the first HTML code:</p>
+                        <ol>
+                            <li>Open Code Editor(Visual Studio Code, Sublime Text, etc.)
+                                or Text Editor.
+                            </li><br>
+                            <li>Using the previous knowledge of HTML elements, create
+                                an element using "Hello World!" as the content and 
+                                (< and >) to open and close the tag.
+                            </li>
+                        </ol>
+                    <p>The end result shoud look like this:</p>
+                    <code>
+                        <span>
+                            <span><</span>Hello World!<span>></span>
+                        </span>
+                    </code>
+                    <p></p>
+            </section><br>
+            <section id="Common_HTML_Tags" class="main-section">
+                <header id="Common_HTML_Tags">Common HTML Tags</header>
+                <p>In code, there will alwways be something to learn. However, 
+                    there are also some tags that are used more often than others.
+                </p>
+                <p>A few examples:</p>
+                    <ul style="list-style: none;">
+                        <li>
+                            <code>
+                                <span>
+                                    <span><</span>h1<span>></span>
+                                </span>
+                            </code>
+                        </li>
+                        <li>represents the main heading/subject for the whole page.</li>
+                        <li>
+                            <code>
+                                <span>
+                                    <span><</span>p<span>></span>
+                                </span>
+                            </code>
+                        </li>
+                        <li>defines a paragraph.</li>
+                        <li>
+                            <code>
+                                <span>
+                                    <span><</span>strong<span>></span>
+                                </span>
+                            </code>
+                        </li>
+                        <li>allows content (text) within element to be bold.</li>
+                    </ul>
+            </section><br>
+        </main>
+        <footer>
+            <p>source: <a href="https://www.w3schools.com/html/html_intro.asp">w3schools.com</a> 
+            and <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">mdn web docs_</a></p>
+        </footer>
+    </body>
+</html>
